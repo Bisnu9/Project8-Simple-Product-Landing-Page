@@ -1,0 +1,56 @@
+body{
+    background-image: url(https://www.shutterstock.com/image-vector/kids-sit-around-campfire-wood-600nw-2246095125.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  /*Background is set to no repeat just to have a single background*/
+    background-position: center;  
+    background-attachment: fixed; /*if background-attachment is set to value fixed the page will not scroll down*/
+    }
+.container1{ 
+   display: flex; /*used to display in row*/
+   text-align: center;
+   justify-content: end; /*it is used to display the flex item, here it is set to end*/
+   height: 70%;
+   width: 100%;
+}
+
+.box{
+    border: 1px;
+    width: 80px;
+    margin: 3px;
+    color: white;
+    cursor: pointer; 
+}
+.container2{
+    text-align: center;
+    color: white;
+}
+.heading{
+    color: rgb(255, 166, 0);
+}
+.container3{
+    color: white;
+    text-align: center;
+}
+.container4{
+    text-align: center;
+    margin-top: 10%;
+}
+.button1{
+    border: 1px;
+    background-color: #7d2ae8;
+    border-radius: 55px;
+    height: 70px;
+    width: 300px;
+    color: white; 
+    cursor: pointer;
+}
+.button2{
+    border: 1px;
+    background-color: #7d2ae8;
+    border-radius: 55px;
+    height: 70px;
+    width: 300px;
+    color: white;
+    margin-top: 2px;
+    cursor: pointer
+}
