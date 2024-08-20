@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(49, 119, 119);
+}
+.container{
+    display: flex;
+    align-items: center;
+}
+.box{
+    padding: 5px;
+    height: 200px;
+    width: 30px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    transition: width 0.3s ease-in, height 0.3s ease-in;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+.hidden:checked + .box{
+    width: 300px;
+    height: 300px;
+}
+.img1{
+    background-image: url(image1.jpeg);
+}
+.img2{
+    background-image: url(image2.jpeg);
+}
+.img3{
+    background-image: url(image3.jpeg);
+}
